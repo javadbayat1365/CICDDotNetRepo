@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the workfolw will run
+# Controls when the workflow will run
 on: 
   # Teriggers the workflow on push or pull request event but only for the main branch
   push:
