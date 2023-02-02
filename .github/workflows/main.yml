@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:  # build-and-release
     # The type of runner that the job will run on
-    runs-on: ubonto-latest # Or windows-latest Or macos 
+    runs-on: ubuntu-latest # Or windows-latest Or macos 
     
     # Steps reperesent a sequence of tasks that will be excuted as part of the job
     steps: 
