@@ -5,7 +5,7 @@
     "iisExpress": {
       "applicationUrl": "http://localhost:8132",
       "sslPort": 0
-    }
+    }//test
   },
   "profiles": {
     "CICDGitHub": {
