@@ -1,5 +1,5 @@
 
-name: .NET
+name: .NET Core 
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish SimpleFeedReader/SimpleFeedReader.csproj -c Release -o website
+      run: dotnet publish CICDDotNetRepo/CICDGitHub/CICDGitHub/CICDGitHub.csproj -c Release -o website
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
       with:
